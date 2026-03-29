@@ -7,9 +7,9 @@ Automatically deletes EC2 snapshots older than one year using a scheduled Lambda
 ## Project Structure
 ```
 ├── env
-│   ├── dev                                 # Root (parent) module — dev environment
-│   │   ├── dev.conf
-│   │   ├── dev.tf
+│   ├── dev                                 # dev environment
+│   │   ├── dev.conf                        # backend config
+│   │   ├── dev.tf                          # parent module
 │   │   └── output.tf
 │   └── prod
 ├── modules
