@@ -162,7 +162,7 @@ def lambda_handler(event: dict, context) -> dict:
                 deleted.append(snapshot_id)
             else:
                 skipped.append(snapshot_id)
-        except Exception as exc:  # pylint: disable=broad-except
+        except Exception as exc:  
             logger.error(
                 "Unhandled exception for snapshot %s: %s",
                 snapshot_id,
