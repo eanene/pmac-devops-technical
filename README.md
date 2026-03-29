@@ -35,7 +35,6 @@ Terraform was chosen because:
 - **Module reusability** — the same child module can be instantiated for dev / staging / prod by changing a few variables in a new root `.tf` file (e.g. `dev.tf` or `prod.tf`).
 - **Rich AWS provider** — mature coverage of every AWS resource used here.
 - **Plan preview** — `terraform plan` shows exact changes before any resource is touched.
-- **Familiarity** — aligns with existing organisational IaC standards.
 
 ---
 
